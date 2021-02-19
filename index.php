@@ -22,6 +22,13 @@
                             <textarea name="description" rows="2" class="form-control" placeholder="Task Description"></textarea>
                         </div>
 
+                        <div>
+                            <select name="roll" id="roll" class="form-control show-tick">
+                                <option value="1">Administrador</option>
+                                <option value="2">Empleado</option>
+                            </select>
+                        </div>
+
                         <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save Task">
                     </form>
                 </div>
